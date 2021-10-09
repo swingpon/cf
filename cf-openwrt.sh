@@ -8,7 +8,7 @@ remoteport=443
 # random cloudflare anycast ip
 declare -i bandwidth
 declare -i speed
-bandwidth=100
+bandwidth=50
 speed=bandwidth*128*1024
 starttime=`date +'%Y-%m-%d %H:%M:%S'`
 while true
